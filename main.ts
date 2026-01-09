@@ -34,6 +34,7 @@ let gameStarted = true
 // MAPA
 // ===================================
 tiles.setCurrentTilemap(tilemap`level3`)
+music.play(music.stringPlayable("C5 F C B - G - C ", 120), music.PlaybackMode.LoopingInBackground)
 sr_robot = sprites.create(img`
     . . . . 2 2 2 2 2 . . . . . . . . 
     . . . 2 4 4 4 4 4 2 . . . . . . . 
